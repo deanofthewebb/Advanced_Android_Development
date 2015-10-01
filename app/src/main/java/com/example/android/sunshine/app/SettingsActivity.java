@@ -104,7 +104,7 @@ public class SettingsActivity extends PreferenceActivity
                     preference.setSummary(stringValue);
                     break;
 
-                case SunshineSyncAdapter.LOCATION_STATUS_SERVER_UNKNOWN:
+                case SunshineSyncAdapter.LOCATION_STATUS_UNKNOWN:
                     preference.setSummary(getString(R.string.pref_location_unknown_description, value));
                     break;
 

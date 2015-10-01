@@ -292,11 +292,11 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
 
                 switch (locationStatus) {
                     case SunshineSyncAdapter.LOCATION_STATUS_SERVER_DOWN:
-                        message = R.string.empty_forecast_list_down;
+                        message = R.string.empty_forecast_list_server_down;
                         break;
 
                     case SunshineSyncAdapter.LOCATION_STATUS_SERVER_INVALID:
-                        message = R.string.empty_forecast_list_error;
+                        message = R.string.empty_forecast_list_server_error;
                         break;
 
                     case SunshineSyncAdapter.LOCATION_STATUS_INVALID:

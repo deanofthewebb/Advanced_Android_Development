@@ -1,6 +1,5 @@
 <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/tools"
     android:id="@+id/detail_additional_pane"
     app:columnCount="2"
     android:layout_height="0dp"
@@ -33,7 +32,6 @@
         android:gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@android:color/white"
-        tools:text="38%"
         app:layout_gravity="fill"/>
 
 
@@ -53,7 +51,6 @@
         android:gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@android:color/white"
-        tools:text="995 hPa"
         app:layout_gravity="fill"/>
 
 
@@ -73,6 +70,5 @@
         android:gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@android:color/white"
-        tools:text="4km/h NW"
         app:layout_gravity="fill"/>
 </android.support.v7.widget.GridLayout>
